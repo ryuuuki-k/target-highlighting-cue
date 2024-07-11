@@ -1,0 +1,20 @@
+{
+  "name": "target-highlighting-cue",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryuuuki-k/target-highlighting-cue"
+  },
+  "contributes": {
+    "grammars": [
+      {
+        "language": "cue",
+        "scopeName": "source.cue",
+        "path": "./syntaxes/cue.tmLanguage.json"
+      }
+    ]
+  }
+}
